@@ -22,7 +22,7 @@ body {
 
 #bloco {
     position: fixed;
-    width: 720px;
+    width: 620px;
     height: 100%;
     left: 0px;
     top: 0px;
@@ -77,6 +77,7 @@ body {
     filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
     border: 0 none;
     outline: 0;
+    font-size: 50px;
 }
 #links {
     display: flex;
@@ -104,4 +105,14 @@ body {
     top: 522px;
     
 
+}
+#lado2 {
+
+}
+#lado2 img {
+    position:fixed;
+    top: 0px;
+    height: 100vh;
+    left: 400px;
+    z-index: -1;
 }
